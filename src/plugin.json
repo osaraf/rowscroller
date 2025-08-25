@@ -1,22 +1,20 @@
 {
+  "$schema": "https://grafana.com/schemas/plugin/v2.json",
   "type": "panel",
   "id": "osamahraf-rowscroller-panel",
   "name": "Row Scroller",
   "info": {
     "description": "Deep-link to a dashboard row by name, optionally expand it, and align the row header to the top.",
-    "author": { "name": "osamahraf", "url": "https://github.com/osamahraf" },
-    "keywords": ["navigation", "row", "deeplink", "scroll"],
+    "author": { "name": "Osamah Rafea", "url": "https://github.com/osaraf" },
+    "version": "0.1.0",
+    "updated": "2025-08-25",
+    "keywords": ["navigation","row","deeplink","scroll"],
     "links": [
-      { "name": "Homepage", "url": "https://github.com/osamahraf/grafana-rowscroller-panel" },
-      { "name": "Documentation", "url": "https://github.com/osamahraf/grafana-rowscroller-panel#readme" }
+      { "name": "repository", "url": "https://github.com/osaraf/rowscroller" },
+      { "name": "documentation", "url": "https://github.com/osaraf/rowscroller#readme" }
     ],
-    "screenshots": [{ "name": "Row highlight", "path": "img/screenshot-1.png" }],
-    "logos": {
-      "small": "img/logo.svg",
-      "large": "img/logo.svg"
-    },
-    "version": "0.1.0"
-  },
+    "logos": { "small": "img/logo.svg", "large": "img/logo.svg" },
+    "screenshots": [ { "name": "plugin", "path": "img/screenshot.png" }] },
   "dependencies": { "grafanaDependency": ">=12.1.0", "plugins": [] }
 }
 
