@@ -40,3 +40,11 @@ services:
       - GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS=osamahraf-rowscroller-panel
     volumes:
       - ./dist:/var/lib/grafana/plugins/osamahraf-rowscroller-panel
+
+---
+## Examples
+
+/d/abcd1234/ops-overview?row=Energie
+/d/abcd1234/ops-overview?row=Errors&expand=false
+/d/abcd1234/ops-overview?row=Network%20Health&expand=true&offset=72
+
