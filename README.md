@@ -6,6 +6,7 @@ Deep-link directly to a **dashboard row** by name. On load, the panel finds the 
 
 ---
 
+
 ## Features
 
 - `row=<name>` — case-insensitive match of the row title
@@ -21,6 +22,12 @@ Deep-link directly to a **dashboard row** by name. On load, the panel finds the 
 - Grafana **≥ 12.1.0**
 - Browser access to the dashboard (no special permissions)
 
+  ---
+
+## Placement requirement
+
+Place the Row Scroller panel in the part of the dashboard that is visible on initial load (ideally in the first row). Grafana may defer panels that start off-screen.
+Make it invisible by setting Transparent, resizing to 1×1, and disabling the title.
 
 ---
 ## Examples
