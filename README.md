@@ -41,11 +41,10 @@ Make it invisible by setting Transparent, resizing to 1×1, and disabling the ti
 ---
 ## Installation
 
-### Dev (unsigned)
-Mount the built plugin into Grafana:
+### Dev
 
 ```yaml
-# docker-compose.yml (minimal for local dev)
+# docker-compose.yml 
 services:
   grafana:
     image: grafana/grafana:12.1.0
