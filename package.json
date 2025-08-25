@@ -2,9 +2,9 @@
   "name": "grafana-rowscroller-panel",
   "version": "0.1.0",
   "description": "Grafana panel that deep-links to a dashboard row and aligns it to top.",
-  "homepage": "https://github.com/osamahraf/grafana-scrollhelper-panel#readme",
-  "repository": { "type": "git", "url": "https://github.com/osamahraf/grafana-scrollhelper-panel.git" },
-  "author": "osamahraf",
+  "homepage": "https://github.com/osaraf/grafana-scrollhelper-panel#readme",
+  "repository": { "type": "git", "url": "https://github.com/osaraf/grafana-scrollhelper-panel.git" },
+  "author": "osamah rafea",
   "license": "Apache-2.0",
   "scripts": {
     "build": "webpack -c ./.config/webpack/webpack.config.ts --env production",
