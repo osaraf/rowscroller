@@ -26,7 +26,9 @@ Deep-link directly to a **dashboard row** by name. On load, the panel finds the 
 ## Examples
 
 /d/abcd1234/ops-overview?row=Energie
+
 /d/abcd1234/ops-overview?row=Errors&expand=false
+
 /d/abcd1234/ops-overview?row=Network%20Health&expand=true&offset=72
 
 ---
