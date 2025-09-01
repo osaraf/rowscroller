@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "Grafana panel that deep-links to a dashboard row and aligns it to top.",
   "homepage": "https://github.com/osaraf/rowscroller#readme",
-  "repository": { "type": "git", "url": "https://github.com/osaraf/rowscroller.git" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/osaraf/rowscroller.git"
+  },
   "author": "osamah rafea",
   "license": "Apache-2.0",
   "scripts": {
@@ -20,7 +23,7 @@
   },
   "devDependencies": {
     "@grafana/eslint-config": "^8.0.0",
-    "@grafana/plugin-e2e": "^2.1.7",
+    "@grafana/plugin-e2e": "^2.1.9",
     "@grafana/tsconfig": "^2.0.0",
     "@playwright/test": "^1.52.0",
     "@stylistic/eslint-plugin-ts": "^2.9.0",
@@ -65,7 +68,7 @@
     "webpack-virtual-modules": "^0.6.2"
   },
   "engines": {
- 	 "node": "^18.17 || ^20.9 || >=22"
+    "node": "^18.17 || ^20.9 || >=22"
   },
   "dependencies": {
     "@emotion/css": "11.10.6",

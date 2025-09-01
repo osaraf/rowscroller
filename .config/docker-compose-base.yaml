@@ -7,13 +7,14 @@ services:
       context: .
       args:
         grafana_image: ${GRAFANA_IMAGE:-grafana-enterprise}
-        grafana_version: ${GRAFANA_VERSION:-12.1.0}
+        grafana_version: ${GRAFANA_VERSION:-12.1.1}
         development: ${DEVELOPMENT:-false}
         anonymous_auth_enabled: ${ANONYMOUS_AUTH_ENABLED:-true}
     ports:
       - 3000:3000/tcp
     volumes:
       - ../dist:/var/lib/grafana/plugins/osamahraf-rowscroller-panel
+      - ../provisioning:/etc/grafana/provisioning
       - ..:/root/osamahraf-rowscroller-panel
 
     environment:
